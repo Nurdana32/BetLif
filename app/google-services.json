@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "856771449473",
+    "firebase_url": "https://betlife-61d08.firebaseio.com",
+    "project_id": "betlife-61d08",
+    "storage_bucket": "betlife-61d08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856771449473:android:f91ed5524f4e6d99",
+        "android_client_info": {
+          "package_name": "com.example.android.homedashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856771449473-bql4l4ks9rlbnefkve3td15gbh2girt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.homedashboard",
+            "certificate_hash": "a100c48f8216cc16048c738c9f8e47f9fb11b361"
+          }
+        },
+        {
+          "client_id": "856771449473-8k2u04bj9as1d870ddvpde22ok3vc397.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_oJE7toFYOfe8KzSouaFfQSV5yTdUzPs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856771449473-8k2u04bj9as1d870ddvpde22ok3vc397.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
