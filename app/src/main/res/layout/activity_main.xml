@@ -12,10 +12,10 @@
 
 
     <ImageView
-        android:layout_width="155dp"
+        android:layout_width="212dp"
         android:layout_height="125dp"
-        android:background="@drawable/logo_icon"
-        android:layout_marginBottom="75dp"/>
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/logo_icon" />
 
 
     <LinearLayout
@@ -28,7 +28,7 @@
         <android.support.v7.widget.CardView
             android:id="@+id/test_card"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
@@ -43,7 +43,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/cerclebackgroundpurple"
+                    android:background="@drawable/cerclebackgroundgreen"
                     android:padding="10dp"
                     android:src="@drawable/ic_event_note_black_24dp" />
 
@@ -73,7 +73,7 @@
         <android.support.v7.widget.CardView
             android:id="@+id/history_card"
             android:layout_width="160dp"
-            android:layout_height="190dp"
+            android:layout_height="160dp"
             android:layout_margin="10dp"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
@@ -88,7 +88,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/cerclebackgroundpink"
+                    android:background="@drawable/cerclebackgroundgreen"
                     android:padding="10dp"
                     android:src="@drawable/ic_history_black_24dp" />
 
