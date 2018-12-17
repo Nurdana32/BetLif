@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,13 +24,16 @@ public class Hasil extends AppCompatActivity
 {
     private String sakit;
     private DatabaseReference data;
-    private TextView hasilRingan;
+    private EditText hasilRingan;
+    private TextView mirip;
     private String persen;
     private Button Home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasil);
@@ -38,13 +42,16 @@ public class Hasil extends AppCompatActivity
         sakit = extras.getString("sakitMirip");
         persen = extras.getString("nilaiPersen");
 
+
         DatabaseReference data = FirebaseDatabase.getInstance().getReference().child("DataBase").child("TabelKasus").child(sakit);
         data.addListenerForSingleValueEvent(new ValueEventListener() {
            @Override
            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                String hasilDiagnosis = dataSnapshot.child("Hasil").getValue().toString();
-               hasilRingan = (TextView)findViewById(R.id.Hasil);
-               hasilRingan.setText(hasilDiagnosis+" dengan nilai kemiripan "+persen+"%");
+               hasilRingan = (EditText)findViewById(R.id.Hasil);
+               hasilRingan.setText(" " +hasilDiagnosis);
+               mirip =(TextView)findViewById(R.id.Mirip);
+               mirip.setText(" Nilai Kemiripan " +persen+"%");
            }
 
            @Override
@@ -52,6 +59,7 @@ public class Hasil extends AppCompatActivity
 
            }
        });
+
 
 
     }
