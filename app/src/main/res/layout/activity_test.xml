@@ -15,23 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <!--<EditText-->
-                <!--android:id="@+id/nama_pasien"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:ems="10"-->
-                <!--android:inputType="textPersonName"-->
-                <!--android:hint="Masukan nama pasien" />-->
-
-            <!--<EditText-->
-                <!--android:id="@+id/umur_pasien"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:ems="10"-->
-                <!--android:inputType="textPersonName"-->
-                <!--android:hint="Masukan umur pasien"/>-->
-
         </LinearLayout>
 
         <ScrollView
